@@ -1,0 +1,231 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: auto;
+    margin: auto;
+}
+
+/*Navigation bar begins*/
+
+.navcontainer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navcontainer, .nav-links, .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 32pt;
+}
+
+.nav {
+    height: 80px;
+    background-color: lightskyblue;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+    font-size: 18pt;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Navigation bar ends*/
+/*Title bar begins*/
+
+#showtemp {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+#title {
+    font-size: 24pt;
+}
+
+.selecttemp {
+    display: flex;
+    font-size: 16pt;
+}
+
+#temp {
+    font-size: 16pt;
+}
+
+/*Title bar ends*/
+/*Forecasts begin*/
+
+.forecasts {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.today, .tomorrow, .friday, .saturday {
+    background-color: rgb(225, 225, 225);
+    width: 250px;
+    height: 375px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+.tomorrow, .friday, .saturday {
+    margin-left: 20px;
+}
+
+.weather {
+    width: 150px;
+    border-radius: 75px;
+    margin-top: 20px;
+}
+
+#todaytitle {
+    font-size: 24pt;
+}
+
+#somerain {
+    padding-top: 20px;
+    font-size: 14pt;
+}
+
+.temp1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-top: 50px;
+    font-size: 18pt;
+}
+
+#templeft, #templeft2, #templeft3, #templeft4 {
+    color: red;
+}
+
+#tempright, #tempright2, #tempright3, #tempright4 {
+    color: blue;
+}
+
+#tomorrowtitle {
+    font-size: 24pt;
+}
+
+#somesun {
+    padding-top: 20px;
+    font-size: 14pt;
+}
+
+.temp2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-top: 50px;
+    font-size: 18pt;
+}
+
+#fridaytitle {
+    font-size: 24pt;
+}
+
+#someclouds {
+    padding-top: 20px;
+    font-size: 14pt;
+}
+
+.temp3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-top: 50px;
+    font-size: 18pt;
+}
+
+#saturdaytitle {
+    font-size: 24pt;
+}
+
+.temp4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-top: 50px;
+    font-size: 18pt;
+}
+
+/*Forecasts end*/
+/*Cookie policy begins*/
+
+.cookie-policy {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookie-img {
+    height: 80px;
+}
+
+.cookiecontent {
+    display: flex;
+    align-items: center;
+}
+
+.cookietext {
+    width: 550px;
+    height: 90px;
+    margin-left: 20px;
+}
+
+#stopcookie {
+    margin-bottom: 10px;
+}
+
+#accept {
+    background-color: lightskyblue;
+    margin-left: 200px;
+    box-shadow: 4px 4px black;
+    border: 2px solid black;
+    font-size: 14pt;
+    width: 100px;
+    height: 40px;
+}
+
+/*Cookie policy ends*/
+
+
+
+
+
